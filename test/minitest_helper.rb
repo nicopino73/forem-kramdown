@@ -1,4 +1,4 @@
-if RUBY_ENGINE == "ruby" && RUBY_VERSION > "1.9"
+if RUBY_VERSION > "1.9" && RUBY_ENGINE == "ruby"
   require "simplecov"
   require "coveralls"
 
