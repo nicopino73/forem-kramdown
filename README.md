@@ -1,5 +1,8 @@
 # forem-kramdown
 
+[![Build Status](https://travis-ci.org/phlipper/forem-kramdown.png?branch=master)](https://travis-ci.org/phlipper/forem-kramdown)
+
+
 ## Description
 
 Provides [Kramdown](http://kramdown.rubyforge.org/) markup (with syntax highlighting by [CodeRay](http://coderay.rubychan.de/)) for [Forem](https://github.com/radar/forem) posts.
