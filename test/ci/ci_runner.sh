@@ -1,4 +1,4 @@
-engine=$(ruby -e 'puts RUBY_ENGINE')
+engine=$(ruby -e 'puts RUBY_ENGINE rescue nil')
 
 case $engine in
   "ruby" )
