@@ -7,4 +7,4 @@ rvm:
   - rbx-19mode
 env:
   - CI=true JRUBY_OPTS=--1.9 RBXOPT=-X19
-script: "bundle exec rake test && bundle exec cane"
+script: "./test/ci/ci_runner.sh"

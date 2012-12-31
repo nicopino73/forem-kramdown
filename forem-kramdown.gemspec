@@ -22,9 +22,6 @@ Gem::Specification.new do |gem|
   gem.add_dependency "kramdown",      "~> 0.14.1"
   gem.add_dependency "nokogiri",      "~> 1.5.6"
 
-  gem.add_development_dependency "cane",      "~> 2.5.0"
-  gem.add_development_dependency "coveralls", "~> 0.5.5"
   gem.add_development_dependency "minitest",  "~> 4.3.0"
   gem.add_development_dependency "rake",      "~> 10.0.0"
-  gem.add_development_dependency "simplecov", "~> 0.7.1"
 end
