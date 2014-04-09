@@ -1,3 +1,11 @@
+**Note:**
+
+This gem is no longer needed, or actively maintained. Simply use the following with [`forem`](https://github.com/radar/forem):
+
+```ruby
+gem "kramdown"
+```
+
 # forem-kramdown
 
 [![Build Status](https://travis-ci.org/phlipper/forem-kramdown.png?branch=master)](https://travis-ci.org/phlipper/forem-kramdown)
